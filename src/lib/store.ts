@@ -3,6 +3,7 @@ import path from "path";
 import { revalidatePath, revalidateTag } from "next/cache";
 import { Project, Category } from "@/types";
 import { slugify } from "@/lib/slugify";
+import initialData from "../../data/projects.json";
 
 export { slugify };
 
@@ -24,14 +25,14 @@ function readData(): DataStore {
       return parsed;
     }
   } catch (err) {
-    console.error("Error reading data file:", err);
+    console.warn("Notice: Reading from disk failed, using bundled data store:", err);
   }
 
   if (inMemoryData) {
     return inMemoryData;
   }
 
-  return { categories: [], projects: [] };
+  return initialData as unknown as DataStore;
 }
 
 function writeData(data: DataStore): void {
