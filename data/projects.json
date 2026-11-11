@@ -1,0 +1,217 @@
+{
+  "categories": [
+    { "id": "cat-1", "name": "Business", "slug": "business" },
+    { "id": "cat-2", "name": "Online Store", "slug": "online-store" },
+    { "id": "cat-3", "name": "School", "slug": "school" },
+    { "id": "cat-4", "name": "Church", "slug": "church" },
+    { "id": "cat-5", "name": "Portfolio / Creator", "slug": "portfolio-creator" },
+    { "id": "cat-6", "name": "Real Estate", "slug": "real-estate" }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Aura Luxe Fashion - Lagos Boutique",
+      "slug": "aura-luxe-fashion",
+      "category": "Online Store",
+      "clientName": "Aura Luxe Nigeria Ltd",
+      "liveUrl": "https://auraluxe.ng",
+      "description": "High-converting multi-vendor fashion storefront with instant WhatsApp order checkout, Paystack payment integration, and real-time inventory management.",
+      "resultMetric": "+280% increase in mobile WhatsApp checkouts within first 60 days",
+      "problem": "Aura Luxe was relying solely on Instagram DMs to take customer orders, causing lost messages, payment confirmation delays, and inventory overselling during peak sales.",
+      "solution": "Host2uls designed and deployed a mobile-first e-commerce web app with 1-click Paystack checkout, automatic WhatsApp order summary dispatch, and an instant admin inventory tracker.",
+      "result": "Order processing time reduced from 25 minutes per customer down to 30 seconds. Online sales grew by 280% within two months without hiring extra support staff.",
+      "techUsed": ["Next.js 15", "Tailwind CSS", "Paystack API", "WhatsApp Business API", "PostgreSQL"],
+      "timeline": "2 Weeks",
+      "featured": true,
+      "order": 1,
+      "status": "published",
+      "_comment": "TODO: Replace coverImage and gallery with your real project screenshot",
+      "coverImage": "/placeholder-fashion.jpg",
+      "gallery": [
+        "/placeholder-fashion.jpg",
+        "/placeholder-gallery-1.jpg",
+        "/placeholder-gallery-2.jpg"
+      ],
+      "testimonial": {
+        "name": "Chidinma Okonkwo",
+        "role": "Founder, Aura Luxe",
+        "quote": "Host2uls transformed our business. Before the website, my staff spent hours replying to DMs and checking bank alerts. Now customers browse, pay with Paystack or WhatsApp, and we just ship!"
+      },
+      "seoTitle": "Aura Luxe Fashion E-commerce Showcase | Host2uls",
+      "seoDescription": "Discover how Host2uls built Aura Luxe Fashion's high-speed e-commerce platform with automated WhatsApp ordering.",
+      "createdAt": "2025-01-10T10:00:00.000Z",
+      "updatedAt": "2025-01-10T10:00:00.000Z"
+    },
+    {
+      "id": "proj-2",
+      "title": "NaijaGrill Express Food Vendor",
+      "slug": "naijagrill-express",
+      "category": "Online Store",
+      "clientName": "NaijaGrill Hospitality",
+      "liveUrl": "https://naijagrill.com.ng",
+      "description": "Blazing fast online food ordering system with location-based dispatch, instant kitchen ticket generation, and automated order notifications.",
+      "resultMetric": "4,500+ successful weekly food delivery orders placed seamlessly",
+      "problem": "Customers faced busy phone lines during lunch rush hours and third-party delivery apps were taking 25% commission fees on every order.",
+      "solution": "Built a custom, direct-to-consumer online ordering menu with meal customization, Paystack integration, and WhatsApp dispatch tracking.",
+      "result": "Saved over ₦1.8M monthly in third-party marketplace commissions while increasing repeat customer loyalty by 42%.",
+      "techUsed": ["Next.js", "React 19", "Tailwind CSS", "Paystack", "WebSockets"],
+      "timeline": "10 Days",
+      "featured": false,
+      "order": 2,
+      "status": "published",
+      "_comment": "TODO: Replace coverImage and gallery with your real project screenshot",
+      "coverImage": "/placeholder-food.jpg",
+      "gallery": [
+        "/placeholder-food.jpg",
+        "/placeholder-gallery-2.jpg",
+        "/placeholder-gallery-3.jpg"
+      ],
+      "testimonial": {
+        "name": "Chef Babatunde Adeleke",
+        "role": "Operations Lead, NaijaGrill",
+        "quote": "Our customers love how fast the menu loads on mobile. It cut our reliance on aggregator apps and put profits right back into our business."
+      },
+      "seoTitle": "NaijaGrill Online Food Ordering Platform | Host2uls Showcase",
+      "seoDescription": "Case study of NaijaGrill Express web application designed and developed by Host2uls.",
+      "createdAt": "2025-01-14T11:00:00.000Z",
+      "updatedAt": "2025-01-14T11:00:00.000Z"
+    },
+    {
+      "id": "proj-3",
+      "title": "Apex International Academy",
+      "slug": "apex-international-academy",
+      "category": "School",
+      "clientName": "Apex Education Trust",
+      "liveUrl": "https://apexacademy.sch.ng",
+      "description": "Comprehensive school portal featuring online student admissions, term results checking, academic calendar, and parent announcement board.",
+      "resultMetric": "100% paperless admission process with 600+ online applications",
+      "problem": "The school was overwhelmed every term with physical paper registration queues, delayed school fee verification, and parents calling constantly for term results.",
+      "solution": "Host2uls created a modern responsive school portal with online student registration, digital term report cards, and parent SMS/WhatsApp notices.",
+      "result": "Reduced administrative processing workload by 70%, with 100% of admissions handled digitally in the first academic term.",
+      "techUsed": ["Next.js", "TypeScript", "Tailwind CSS", "PDF Generation", "Cloud Storage"],
+      "timeline": "3 Weeks",
+      "featured": false,
+      "order": 3,
+      "status": "published",
+      "_comment": "TODO: Replace coverImage and gallery with your real project screenshot",
+      "coverImage": "/placeholder-school.jpg",
+      "gallery": [
+        "/placeholder-school.jpg",
+        "/placeholder-gallery-1.jpg",
+        "/placeholder-gallery-3.jpg"
+      ],
+      "testimonial": {
+        "name": "Dr. Florence Nwosu",
+        "role": "Principal, Apex International",
+        "quote": "Parents constantly commend how professional and user-friendly our new website is. It raised our school brand perception significantly."
+      },
+      "seoTitle": "Apex International Academy Portal Showcase | Host2uls",
+      "seoDescription": "Modern academic portal and admission system built by Host2uls web services.",
+      "createdAt": "2025-01-18T14:30:00.000Z",
+      "updatedAt": "2025-01-18T14:30:00.000Z"
+    },
+    {
+      "id": "proj-4",
+      "title": "Grace City Christian Centre",
+      "slug": "grace-city-church",
+      "category": "Church",
+      "clientName": "Grace City Ministries",
+      "liveUrl": "https://gracecitychurch.org.ng",
+      "description": "Dynamic church website with live service streaming, sermon audio/video archive, online tithes & offerings, and event registration.",
+      "resultMetric": "Engaging 12,000+ weekly virtual attendees and seamless online giving",
+      "problem": "The ministry needed a unified digital hub to reach members worldwide, organize small groups, and allow secure online tithes and donations.",
+      "solution": "Developed a warm, uplifting website featuring YouTube/Facebook live integration, sermon podcast player, and instant bank card donation integration.",
+      "result": "Global reach expanded to over 15 countries, with 40% increase in online outreach participation.",
+      "techUsed": ["Next.js", "Tailwind CSS", "YouTube API", "Paystack Giving", "Sermon Player"],
+      "timeline": "2 Weeks",
+      "featured": false,
+      "order": 4,
+      "status": "published",
+      "_comment": "TODO: Replace coverImage and gallery with your real project screenshot",
+      "coverImage": "/placeholder-church.jpg",
+      "gallery": [
+        "/placeholder-church.jpg",
+        "/placeholder-gallery-2.jpg",
+        "/placeholder-gallery-3.jpg"
+      ],
+      "testimonial": {
+        "name": "Pastor Samuel Adeyemi",
+        "role": "Media Director, Grace City",
+        "quote": "Host2uls gave us more than a website—they gave our ministry a 24/7 global broadcast channel. Their customer support on WhatsApp is top notch."
+      },
+      "seoTitle": "Grace City Church Website Project | Host2uls Showcase",
+      "seoDescription": "Discover how Host2uls built an inspiring, high-performance website for Grace City Christian Centre.",
+      "createdAt": "2025-01-22T09:15:00.000Z",
+      "updatedAt": "2025-01-22T09:15:00.000Z"
+    },
+    {
+      "id": "proj-5",
+      "title": "Kolawole Studios - Visual Creator Portfolio",
+      "slug": "kolawole-studios",
+      "category": "Portfolio / Creator",
+      "clientName": "Kolawole Filmworks",
+      "liveUrl": "https://kolawole.tv",
+      "description": "Minimalist, visual-first portfolio and client booking hub for a Nigerian commercial photographer and music video director.",
+      "resultMetric": "Secured 3 major commercial brand contracts within 30 days of launch",
+      "problem": "Potential international clients were asking for a portfolio website, and sharing Instagram links did not convey the high-end creative value.",
+      "solution": "Crafted an immersive, ultra-clean portfolio with full-bleed video backgrounds, categorized case studies, and quick WhatsApp consultation booking.",
+      "result": "Conversion rate for high-ticket agency briefs tripled, and client inquiries are now filtered and organized automatically.",
+      "techUsed": ["Next.js", "Framer Motion", "Tailwind CSS", "Vimeo API", "WhatsApp Direct"],
+      "timeline": "1 Week",
+      "featured": false,
+      "order": 5,
+      "status": "published",
+      "_comment": "TODO: Replace coverImage and gallery with your real project screenshot",
+      "coverImage": "/placeholder-creator.jpg",
+      "gallery": [
+        "/placeholder-creator.jpg",
+        "/placeholder-gallery-1.jpg",
+        "/placeholder-gallery-2.jpg"
+      ],
+      "testimonial": {
+        "name": "David Kolawole",
+        "role": "Film Director & Visual Artist",
+        "quote": "My clients take me 10x more seriously since launching this site. It paid for itself with the very first booking!"
+      },
+      "seoTitle": "Kolawole Studios Creator Portfolio | Host2uls Showcase",
+      "seoDescription": "A sleek portfolio website designed by Host2uls for visual creators and commercial directors.",
+      "createdAt": "2025-01-26T16:00:00.000Z",
+      "updatedAt": "2025-01-26T16:00:00.000Z"
+    },
+    {
+      "id": "proj-6",
+      "title": "PrimeKey Properties Lagos",
+      "slug": "primekey-properties",
+      "category": "Business",
+      "clientName": "PrimeKey Realty Group",
+      "liveUrl": "https://primekey.ng",
+      "description": "Premium luxury real estate platform featuring verified land and apartment listings in Lekki, Ikoyi, and Abuja with direct agent WhatsApp chat.",
+      "resultMetric": "Generated ₦450M+ in qualified property buyer inquiries in 90 days",
+      "problem": "Standard listing portals were flooded with duplicate, unverified properties and buyers lacked trust in online property transactions.",
+      "solution": "Built a high-trust, fast-loading property portal with video walkthroughs, verified title status badges, neighborhood guides, and direct WhatsApp inspection booking.",
+      "result": "Property inspection bookings increased by 190%, with diasporan buyers citing the clear site layout and instant responsiveness as key factors.",
+      "techUsed": ["Next.js 15", "Tailwind CSS", "Interactive Maps", "WhatsApp CRM", "Vercel"],
+      "timeline": "3 Weeks",
+      "featured": false,
+      "order": 6,
+      "status": "published",
+      "_comment": "TODO: Replace coverImage and gallery with your real project screenshot",
+      "coverImage": "/placeholder-realestate.jpg",
+      "gallery": [
+        "/placeholder-realestate.jpg",
+        "/placeholder-gallery-2.jpg",
+        "/placeholder-gallery-3.jpg"
+      ],
+      "testimonial": {
+        "name": "Emeka Anozie",
+        "role": "Managing Director, PrimeKey",
+        "quote": "Our website looks like a Fortune 500 platform. Our clients in the UK and USA feel total confidence investing with us from abroad."
+      },
+      "seoTitle": "PrimeKey Properties Real Estate Showcase | Host2uls",
+      "seoDescription": "Luxury real estate property portal engineered for high conversions by Host2uls web services.",
+      "createdAt": "2025-02-01T12:00:00.000Z",
+      "updatedAt": "2025-02-01T12:00:00.000Z"
+    }
+  ]
+}
+
